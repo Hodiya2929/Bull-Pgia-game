@@ -22,6 +22,8 @@ virtual void learn(const string& reply){
 
 }
 
+virtual ~Guesser(){}// we want the compiler free the right destructor, because dtors are function alike. 
+
 };//end class Guesser
 
 }//end namespace bullpgia
